@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xem bài tập code</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="exercise">
+            <h2 class="exercise-title">Bài tập 1: Tính tổng hai số</h2>
+            <pre class="code">
+                <code>
+                    function sum(a, b) {
+                        return a + b;
+                    }
+                </code>
+            </pre>
+            <button class="solution-button" onclick="window.open('loigiai.html', '_blank')">Xem lời giải</button>
+            <div id="solution-1" class="solution hidden">
+                <h3 class="solution-title">Lời giải:</h3>
+                <pre class="code">
+                    <code>
+                        function sum(a, b) {
+                            return a + b;
+                        }
+    
+                        console.log(sum(5, 3)); // Kết quả: 8
+                    </code>
+                </pre>
+            </div>
+        </div>
+
+        <div class="exercise">
+            <h2 class="exercise-title">Bài tập 2: Đảo ngược chuỗi</h2>
+            <pre class="code">
+                <code>
+                    function reverseString(str) {
+                        return str.split("").reverse().join("");
+                    }
+                </code>
+            </pre>
+            <button class="solution-button" onclick="toggleSolution(2)">Xem lời giải</button>
+            <div id="solution-2" class="solution hidden">
+                <h3 class="solution-title">Lời giải:</h3>
+                <pre class="code">
+                    <code>
+                        function reverseString(str) {
+                            return str.split("").reverse().join("");
+                        }
+    
+                        console.log(reverseString("Hello")); // Kết quả: "olleH"
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

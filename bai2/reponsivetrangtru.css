@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+
+    .containor {
+        width: 320px;
+        height: 568px;
+        margin: auto;
+      }
+      .header__div {
+        width: 320px;
+        height: 64px;
+        display: flex;
+        padding-left: 0px;
+      }
+      .header__img {
+        height: 45px;
+        width: 55px;
+        margin-top: 10px;
+      }
+      .header__input {
+        display: none;
+      }
+      .header__icon {
+        display: flex;
+        font-size: 30px;
+        top: 20px;
+        left: -20px;
+      }
+      /* main */
+      main {
+        margin-left: 0px;
+      }
+      .main__img {
+        height: 100px;
+        width: 300px;
+        margin-top: 20px;
+      }
+    
+      .main__sumimg {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+      .footer_menu {
+        display: block;
+      }
+      .footer_thongtin {
+        display: none;
+      }
+      .footer_text {
+        display: block;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        /* identical to box height, or 200% */
+        margin-top: 20px;
+        text-align: center;
+        color: #00000080;
+        width: 320px;
+        padding-top: 20px;
+        background: #f8f8f8;
+        border-radius: 0px;
+      }
+    }
+    
+    /* tablet */
+    @media only screen and (min-width: 768px) {
+      .containor {
+        width: 768px;
+        height: 1024px;
+        margin: auto;
+      }
+      .header__div {
+        width: 768px;
+        display: flex;
+        padding-left: 0px;
+      }
+      .header__input {
+        width: 500px;
+        height: 34px;
+        margin-top: 15px;
+        border-radius: 10px;
+        cursor: text;
+      }
+      /* main */
+      main {
+        margin : auto;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .main__img {
+        height: 180px;
+        width: 600px;
+      }
+    
+      .main__sumimg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+        gap: 236px 2px;
+        cursor: pointer;
+      }
+      .list_1 {
+        display: none;
+      }
+      .footer_thongtin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 15px;
+        width: 768px;
+        height: 168px;
+        margin-top: 59px;
+        
+        background: #F8F8F8;
+        border-radius: 0px;
+      }
+}
+
+/* pc */
+@media only screen and (min-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .containor {
+    width: 1792px;
+    height: 1837px;
+    background: #ffffff;
+    margin: auto;
+  }
+  
+  .header__div {
+    background: #d70018;
+    width: 1792px;
+    height: 64px;
+    display: flex;
+    padding-left: 305px;
+  }
+  
+  .header__img {
+    height: 57px;
+    width: 65px;
+    margin-right: 115px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+  
+  .header__input {
+    width: 1040px;
+    height: 34px;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: text;
+  }
+  .header__4 {
+    position: relative;
+  }
+  .header__icon {
+    position: absolute;
+    top: 25px;
+    left: 4px;
+  }
+  
+  /* main */
+  main {
+    margin-left: 65px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .main__img {
+    height: 418px;
+    width: 1616px;
+    margin-top: 29px;
+  }
+  
+  .main__h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #444444;
+    margin-top: 23px;
+  }
+  .main__sumimg {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 20px;
+    gap: 236px 79px;
+    cursor: pointer;
+  }
+  .main__img1 {
+    height: 160px;
+    width: 160px;
+  }
+  
+  .main__text {
+    height: 42px;
+    width: 194px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    text-align: left;
+    margin-top: 9px;
+  }
+  
+  .list_1{
+    display: contents;
+  }
+  
+  .footer_thongtin {
+    display: flex;
+    gap: 79px;
+    justify-content: center;
+    padding-top: 15px;
+    width: 1792px;
+    height: 168px;
+    margin-top: 59px;
+    
+    background: #F8F8F8;
+    border-radius: 0px;
+  }
+  .footer_text {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 20px;
+      /* identical to box height, or 200% */
+      bottom: 200px;
+      text-align: center;
+      color: #00000080;
+      padding-bottom: 10px;
+  }
+  
+  
+  
+  /* giỏ hàng */
+  
+}

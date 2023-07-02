@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containor {
+  width: 1792px;
+  height: 1837px;
+  background: #ffffff;
+  margin: auto;
+}
+
+.header__div {
+  background: #d70018;
+  width: 1792px;
+  height: 64px;
+  display: flex;
+  padding-left: 305px;
+
+}
+
+.header__img {
+  height: 57px;
+  width: 65px;
+  margin-right: 115px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.header__input {
+  width: 1040px;
+  height: 34px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: text;
+}
+.header__4 {
+  position: relative;
+}
+.header__icon {
+  position: absolute;
+  top: 25px;
+  left: 4px;
+}
+
+/* main */
+main {
+  margin-left: 65px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.main__img {
+  height: 418px;
+  width: 1616px;
+  margin-top: 29px;
+}
+
+.main__h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: #444444;
+  margin-top: 23px;
+}
+
+.main__sumimg {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 20px;
+  gap: 236px 79px;
+  cursor: pointer;
+}
+.main__img1 {
+  height: 160px;
+  width: 160px;
+}
+
+.main__text {
+  height: 42px;
+  width: 194px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #444444;
+  text-align: left;
+  margin-top: 9px;
+}
+
+.main__price {
+  display: flex;
+  width: 194px;
+  margin-top: 27px;
+}
+
+.price_1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 110% */
+
+  color: #d70018;
+  margin-right: 10px;
+}
+
+.price_2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 140% */
+
+  color: #707070;
+}
+
+.main_star {
+  display: flex;
+  margin-top: 13px;
+}
+
+.star {
+  display: flex;
+}
+
+.main_danhgia {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #444444;
+  padding-left: 4px;
+}
+
+.main__img1{
+
+}
+
+.main_img1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.main__hangmoi{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.main_hangmoi {
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.main__hangmoi:hover {
+  opacity: 1;
+  color: #d70018;
+}
+
+.img1:hover{
+  transform: scale(1.2);
+  transition: all 1.5s ease;
+}
+
+/* footer */
+.footer_menu {
+  display: flex;
+  margin-top: 300px;
+  justify-content: space-around;
+}
+
+
+li {
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+
+  color: #444444;
+}
+
+.red {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+
+  color: #d70018;
+}
+
+.big {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  color: #444444;
+}
+
+.big1 {
+  margin-top: 15px;
+}
+.big2 {
+  margin-top: 18px;
+}
+
+.big_img {
+  height: 40px;
+  width: 216px;
+}
+
+.citi {
+  height: 20px;
+  width: 30px;
+}
+
+.maca {
+  height: 19px;
+  width: 30px;
+}
+
+.rediva {
+  height: 14px;
+  width: 40px;
+}
+
+.vnpay {
+  height: 15px;
+  width: 50px;
+}
+
+.vpbank {
+  height: 12px;
+  width: 50px;
+}
+
+.thanhtoan {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 13px;
+}
+
+.footer_thongtin {
+  display: flex;
+  gap: 79px;
+  justify-content: center;
+  padding-top: 15px;
+  width: 1792px;
+  height: 168px;
+  margin-top: 59px;
+  
+  background: #F8F8F8;
+  border-radius: 0px;
+}
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+    bottom: 200px;
+    text-align: center;
+    color: #00000080;
+    padding-bottom: 10px;
+}
+
+
+
+/* giỏ hàng */

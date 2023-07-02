@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TiKi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+        <header  class="container mx-auto flex justify-between">
+            <div>
+                <div class="flex gap-20 items-center  mt-3">
+                    <img class="w-[57px] h-[40px]" src="https://salt.tikicdn.com/ts/upload/e4/49/6c/270be9859abd5f5ec5071da65fab0a94.png" alt="">
+                    <div class="relative">
+                        <img class="w-[20px] h-[20px] absolute top-2 left-3" src="https://salt.tikicdn.com/ts/upload/33/d0/37/6fef2e788f00a16dc7d5a1dfc5d0e97a.png" alt="">
+                        <input class="w-[800px] h-[40px] pl-10 rounded-md" type="text" placeholder="Bạn đang cần tìm kiếm gì ?">
+                        <button class="absolute right-10 top-2 border-l pl-5 text-[#0A68FF]">Tìm Kiếm</button>
+                    </div>
+                </div>
+
+                <div class="flex gap-8 items-center">
+                    <div class="flex gap-3 items-center">
+                        <img class="w-[24px] h-[24px]" src="https://salt.tikicdn.com/ts/upload/32/56/db/d919a4fea46f498b5f4708986d82009d.png" alt="">
+                        <p>Trang chủ</p>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img class="w-[24px] h-[24px]" src="https://salt.tikicdn.com/ts/upload/41/28/7d/4713aa0d2855c5c770799f248692f0c5.png" alt="">
+                        <p>Astra</p>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img class="w-[24px] h-[24px]" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="">
+                        <p class="border-r pr-10">Tài khoản</p>
+                    </div>
+                    <img class="w-[24px] h-[24px]" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex gap-[245px]">
+                <div class=" pl-[205px] mt-3 text-[#808089] text-[14px]">
+                    <ul class="flex gap-3">
+                        <li>trái cây</li>
+                        <li>thịt, trứng</li>
+                        <li>rau củ quả</li>
+                        <li>sữa, bơ, phô mai</li>
+                        <li>hải sản</li>
+                        <li>gạo, mì ăn liền</li>
+                        <li>đồ uống, bia rượu</li>
+                        <li>bánh kẹo</li>
+                    </ul>
+                </div>
+
+                <div class="flex mt-3 items-center gap-2">
+                    <img class="w-[20px] h-[20px]" src="https://salt.tikicdn.com/ts/upload/88/5c/9d/f5ee506836792eb7775e527ef8350a44.png" alt="">
+                    <p class="text-[14px] text-[#808089]">Giao đến:</p>
+                    <p class="text-[14px] font-bold underline  underline-offset-4">TP. Bắc Giang, P. Dĩnh Kế, Bắc Giang</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="flex bg-[#FFE880] mt-3 h-[39px] items-center justify-center gap-1">
+                <img class="w-[81px] h-[12px]" src="https://salt.tikicdn.com/ts/upload/5e/ec/fb/150f3c633781ed1da9921e45db90c62d.png" alt="">
+                <p class="font-bold text-[#27272A] text-[14px]">mỗi ngày, tự động áp dụng không cần săn mã</p>
+            </div>
+
+            <div class=" container mx-auto flex gap-10 mt-5">
+                <!-- left -->
+                <div class="bg-[#fffff] shadow-xl w-1/6 h-[500px]">
+                    <p>Nổi bật</p>
+                </div>
+
+                <!-- Right -->
+                <div class="w-5/6">
+                    <div class="flex gap-5">
+                        <img class="w-[800px] h-[280px]" src="https://salt.tikicdn.com/cache/w1080/ts/tikimsp/58/46/ae/3151fa23e5ed1a5d5e2e52427d25e4fc.jpg.webp" alt="">
+                        <img class="w-[280px] h-[280px]" src="https://salt.tikicdn.com/cache/w750/ts/tikimsp/03/c4/4b/c2f5dabd53795693f17987847548248b.png.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+  </body>
+</html>

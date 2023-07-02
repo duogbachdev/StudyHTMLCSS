@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  /* dàn hàng ngang */
+  display: flex;
+  /* khoảng cách */
+  justify-content: space-between;
+  /* cách trên */
+  padding-top: 45px;
+}
+
+.trang {
+  text-decoration: none;
+  color: #333333;
+}
+
+.ul {
+  display: flex;
+  /* khoảng cách trong menu */
+  gap: 60px;
+  /* bỏ dấu chấm tròn */
+  list-style: none;
+}
+
+/* main */
+
+.p1 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+
+.p2 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #333333;
+}
+
+main {
+  padding-top: 92px;
+}
+
+hr {
+  margin-top: 30px;
+  background: #f2f2f2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.sumimg {
+  /* dàn hàng ngang ảnh */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.img1 {
+  height: 140px;
+}
+.demoimg {
+  width: 210px;
+  height: 260px;
+}
+
+.demoimg2 {
+  background: #fbfbfb;
+}
+
+.img19 {
+  padding: 20px 20px 64px 20px;
+
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.sum2 {
+  margin-top: 75px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+
+  display: flex;
+  gap: 20px;
+}
+
+.text04 {
+  width: 53px;
+  height: 53px;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+}
+
+.text05 {
+  width: 53px;
+  height: 53px;
+  padding: 12px;
+  background: #f9f9f9;
+  border: 1px solid #f2f2f2;
+}
+
+.text01 {
+  padding-top: 12px;
+}
+
+.text02 {
+  color: #e0e0e0;
+  padding-top: 12px;
+}
+
+.text03 {
+  color: #bdbdbd;
+  padding-top: 12px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 120px;
+  background: #2c2c2c;
+  height: 417px;
+  width: 1440px;
+  padding-top: 58px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo {
+  width: 145px;
+  height: 94px;
+}
+
+h3 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.ul_2 {
+  list-style: none;
+  color: #ffffff;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.item {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 24px;
+  line-height: 40px;
+}
+
+.ul_3 {
+  list-style: none;
+  color: #ffffff;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.item2 {
+  margin-top: 24px;
+  line-height: 32px;
+}
+
+.copyright {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #c8c8c880;
+
+  text-align: center;
+  padding: 24px 519px;
+}
+
+/* Trang 2 */
+.khoi1 {
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #fbfbfb;
+}
+.imgkhoi1 {
+  height: 435px;
+  width: 670px;
+}
+
+.font1 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 50px;
+
+  /* Gray 4 */
+
+  color: #bdbdbd;
+}
+
+.font2 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+  color: #000000;
+  margin-top: 20px;
+}
+
+.font3 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #333333;
+  padding-right: 5px;
+  padding-top: 30px;
+  padding-left: 52px;
+  text-decoration: none;
+}
+
+.font4 {
+  padding-top: 25px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.font3_4 {
+  display: flex;
+  background: #ffffff;
+  height: 71px;
+  width: 222px;
+  margin-top: 64px;
+}
+
+/* trang 3 */
+.photo {
+  height: 450px;
+  width: 337.3945617675781px;
+}
+
+.khoi2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 42px;
+}
+
+.sum3 {
+  margin-top: 75px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+
+  margin-left: 1030px;
+  display: flex;
+  gap: 20px;
+}
+
+/* trang 4 */
+
+.trang4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text06 {
+  margin-top: 34px;
+}
+
+.text06_1 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+span{
+  color: gray;
+}

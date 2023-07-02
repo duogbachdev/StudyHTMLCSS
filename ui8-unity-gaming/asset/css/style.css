@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: ;
+}
+.container{
+    max-width: 1860px;
+    background: #FFFFFF;
+    margin: auto;
+    display: flex;
+}
+
+.container .left{
+    width: 17%;
+    height: 2894px;
+    background: red;
+}
+
+/* Right */
+.container .right{
+    width: 83%;
+}
+
+.container .right .header{
+    padding: 0 59px;
+    height: 96px;
+}
+.container .right .header .header-items{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+

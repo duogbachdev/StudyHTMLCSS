@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    /* cách nội dung bên trong thẻ div */
+    padding: 0; 
+    /* cách khối div */
+    margin: 0;
+}
+
+.box{
+    background: green;
+    width: 200px;
+    height: 500px;
+    border: 2px solid red;
+}
+
+.text{
+    color: white;
+}
+
+#demoID{
+    color: white;
+}
+
+.fab{
+    color: red;
+    font-size: 50px;
+}
+
+.demo{
+    display: flex;
+    /* justify-content: center;
+    justify-content: start;
+    justify-content: space-between;
+    justify-content: space-around; */
+
+     /* dữ định dạng khi kéo màn hình  */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* position: fixed; */
+}
+.demo-1{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    border: 2px solid black;
+    /* đổi màu chuột */
+    cursor: pointer;
+    /* thuộc tính cha */
+    position: relative;
+    overflow: hidden;
+}
+/* đổi màu chữ */
+.demo_hover:hover{
+    color: red;
+}
+
+.demo_position{
+    height: 2000px;
+}
+.demo_img{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}   
+img{
+    width: 100%;
+    height: 100%;
+}
+.duogbach:hover{
+    /* di chuột vào thì hiện thuộc tính con */
+    opacity: 1;
+}
+
+.demo__img:hover{
+    transform: scale(1,2);
+}
+
+.demonek{
+    /* thuộc tính con trong cha */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* ẩn đi thuộc tính con */
+    opacity: 0; 
+}
+
+.demo_p{
+padding: 15px;
+border: 2px solid black;
+width: 120px;
+color: red;
+font-size: 30px;
+}
+
+.demo__img{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.duogbach{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* ẩn đi thuộc tính con */
+    opacity: 0; 
+}
+
+
